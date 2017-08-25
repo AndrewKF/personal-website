@@ -1,0 +1,26 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#F2CC20;}
+	.st2{fill:#DC3348;}
+	.st3{fill:#F3922B;}
+	.st4{fill:#319BD0;}
+	.st5{fill:#31B49E;}
+</style>
+<g>
+	<g>
+		<g transform="translate(40.000000, 51.000000)">
+			<polygon id="Mask" class="st0" points="82,271 82,95.5 180.8,95.5 279.5,95.5 279.5,271 			"/>
+			<polyline id="Fill-50" class="st1" points="259.5,182.9 191.3,182.9 191.3,270.3 192,270.3 192,271 279.5,271 279.5,182.9 
+				259.5,182.9 			"/>
+			<polyline id="Fill-52" class="st2" points="183.8,182.9 183.8,175.3 225.4,175.3 225.4,95.5 82,95.5 82,238.9 183.8,238.9 
+				183.8,182.9 			"/>
+			<polyline id="Fill-54" class="st3" points="191.3,270.3 159.8,270.3 159.8,302.5 192,302.5 192,271 191.3,271 191.3,270.3 			"/>
+			<polyline id="Fill-56" class="st4" points="314.8,205.5 305.8,205.5 305.8,237.7 338,237.7 338,205.5 314.8,205.5 			"/>
+			<polyline id="Fill-57" class="st5" points="287,214.5 298.3,214.5 298.3,198 314.8,198 314.8,159.2 259.5,159.2 259.5,175.3 
+				287,175.3 287,214.5 			"/>
+		</g>
+	</g>
+</g>
+</svg>

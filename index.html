@@ -1,0 +1,34 @@
+---
+layout: default
+content-type: preview
+---
+
+<div class="outer">
+
+  <p class="intro">
+    <em>Hi, my name is Andrew.</em> I am currently a freelance designer and formerly worked at a design agency called <a href="http://www.universalmind.com">Universal Mind</a>,
+    and an enterprise human resources product named <a href="https://www.convercent.com">Convercent</a>. My focus is designing for web/native applications and am passionate
+    about user experience, accessability, typography, and making the internet better for people.
+  </p>
+
+  <div class="home">
+
+    <ul class="featuredProject-list">
+      {% for post in site.categories.portfolio %}
+      <li class="featured-listItem" data-client="{{post.client-short-name}}">
+        <a href="{{ post.url }}">
+          <figure>
+            {% include logo-{{ post.client-short-name }}.svg %}
+          </figure>
+          <h4 class="featured__link">{{ post.client }}</h4>
+          <p>{{ post.short-desc }}</p>
+        </a>
+      </li>
+
+      {% endfor %}
+
+    </ul>
+
+  </div>
+
+</div>

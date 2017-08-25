@@ -1,0 +1,18 @@
+---
+layout: default
+permalink: pretty
+---
+
+<section class="project project--HM">
+
+	<div class="outer"> 
+		<div class="project-logo">{% include logo-{{ page.client-short-name }}.svg role=page.layout %}</div>
+		<h3 class="project__title" itemprop="name headline">{{ page.title }}</h3>
+		<h5 class="project__roles">{{ page.role }}</h5>
+		
+	</div>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</section>
