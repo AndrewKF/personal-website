@@ -7,7 +7,7 @@
 
 # Site settings
 title: Andrew Fullerton
-email: andrew.fullerton@gmail.com.com
+email: andrew.fullerton@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Design and Front-End Development
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -17,3 +17,7 @@ github_username:  AndrewKF
 
 # Build settings
 markdown: kramdown
+
+exclude:
+ - Capfile
+ - config
